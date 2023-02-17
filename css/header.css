@@ -1,23 +1,26 @@
 .cabeçalho__menu-hamburguer{
 
-    width: 34px;
-    height: 38px;
+    width: 40px;
+    height: 34px;
     background-image: url("../img/Menu.svg");
     display: inline-block;
-    /* aqui não utilizei background position e repeat:nom repeat  */
+    background-repeat: no-repeat;
+    /* aqui não utilizei background position e repeat:no repeat  */
 }
 
 .cabeçalho{
     background-color: var(--cor-branca);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.container {
+.container{
     align-items: center;
+    display: flex;
     /*sem display flex ficou melhor, apenas deixei na classe cabeçalho*/
 }
 
 .container__imagem{
-    padding: 0,5em; /*padding foi menor que o exemplo*/
+    padding: 0.2em; /*padding foi menor que o exemplo*/
 }
