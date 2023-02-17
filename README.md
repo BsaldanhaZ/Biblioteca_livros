@@ -6,8 +6,6 @@
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/bsaldanhaz?style=social)
 
-Para rodar esse projeto na sua máquina, por favor digite:
-``````
 # :hammer: Funcionalidades do projeto
 
 - `Funcionalidade 1`: descrição da funcionalidade 1
