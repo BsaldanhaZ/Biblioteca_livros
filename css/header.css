@@ -4,6 +4,7 @@
     height: 38px;
     background-image: url("../img/Menu.svg");
     display: inline-block;
+    /* aqui não utilizei background position e repeat:nom repeat  */
 }
 
 .cabeçalho{
@@ -14,8 +15,9 @@
 
 .container {
     align-items: center;
+    /*sem display flex ficou melhor, apenas deixei na classe cabeçalho*/
 }
 
 .container__imagem{
-    padding: 0,5em;
+    padding: 0,5em; /*padding foi menor que o exemplo*/
 }
