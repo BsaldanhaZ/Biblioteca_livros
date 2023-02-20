@@ -5,6 +5,8 @@
     background-image: url("../img/Menu.svg");
     display: inline-block;
     background-repeat: no-repeat;
+    background-position: center;
+
     /* aqui não utilizei background position e repeat:no repeat  */
 }
 
@@ -13,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container{
@@ -22,7 +25,7 @@
 }
 
 .container__imagem{
-    padding: 0.2em; /*padding foi menor que o exemplo*/
+    padding: 1em; /*padding foi menor que o exemplo*/
 }
 
 .lista-menu {
