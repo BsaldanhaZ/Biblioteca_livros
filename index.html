@@ -54,16 +54,21 @@
         <!-- Slider main container -->
         <div class="swiper">
         <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
         <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide"><img src="img/Portugol.svg" alt="livro sobre portugol e programação"></div>
             <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
             <div class="swiper-slide"><img src="img/Javascript.svg" alt="livro sobre logica com javascript"></div>
             <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="livro sobre métricas ágeis"></div>
+            <div class="swiper-slide"><img src="img/Portugol.svg" alt="livro sobre portugol e programação"></div>
+            <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
+            <div class="swiper-slide"><img src="img/Javascript.svg" alt="livro sobre logica com javascript"></div>
+            <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="livro sobre métricas ágeis"></div>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
+        
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
@@ -75,9 +80,14 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-        spaceBetween: 100,
+        spaceBetween: 10,
         slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            },
         });
+        
     </script>
 
 </body>
