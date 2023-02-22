@@ -45,15 +45,17 @@
     color: var(--laranja);
     font-weight: 700;
     font-size: 16px;
+    margin: 0.5em 0;
 }
 .descrição__titulo-livro{
     font-weight: 700;
     font-size: 18px;
-    margin: 0.5em 0
+    margin: 0.5em 0;
 }
 .descrição__texto{
     font-weight: 400;
     font-size: 14px;
+    font-family: var(--fonte-principal);
 }
 
 .botões{
