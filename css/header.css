@@ -94,7 +94,7 @@
     }
     .opções__link{
         text-decoration: none;
-        color: var(--pretoq);
+        color: var(--preto);
     }
     .imagem__favoritos{
         display: none;
@@ -102,4 +102,13 @@
     .cabeçalho__menu-hamburguer{
        display: none;
     }
+    .opções__botão{
+        display: none;
+    }
+    .opções__botão:checked~.lista-menu{
+        display: block;
+        width: auto;
+    }
+  
+
 }
