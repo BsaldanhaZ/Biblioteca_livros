@@ -70,6 +70,9 @@
 .opções{
     display:none;
 }
+.container__imagem-texto{
+    display: none;
+}
 
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo-negrito{
@@ -115,6 +118,20 @@
         margin: 0em auto;
         justify-content: space-around;
     }
-  
+    
+
+}
+
+@media screen and (min-width: 1728px) {
+
+   .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+   }
+   .container__imagem-texto{
+        display: block;
+   }
 
 }
