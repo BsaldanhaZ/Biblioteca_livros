@@ -1,6 +1,7 @@
 .contato{
     background-color: var(--branco);
-    margin: 1em 1em;
+    padding: 2em;
+    
 
 }
 
@@ -50,7 +51,7 @@
         margin: 2em 0;
     }
     .contato__email{
-        width: 40%;
+        width: 30%;
         
     }
     .contato__titulo{
