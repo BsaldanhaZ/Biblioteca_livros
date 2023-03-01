@@ -23,6 +23,15 @@
     display: flex;
     /*sem display flex ficou melhor, apenas deixei na classe cabeçalho*/
 }
+.container__botao:checked~.container__cabeçalho>.cabeçalho__menu-hamburguer{
+    background-image: url("../img/Menu_aberto.svg");
+}
+
+.container__botao:checked~.container__cabeçalho{
+    background-color: var(--azul-degrade);
+}
+
+
 
 .container__imagem{
     padding: 1em; /*padding foi menor que o exemplo*/
@@ -114,7 +123,14 @@
         width: auto;
     }
    
-    
+    .lista-menu__item:hover{
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu__item:hover>.lista-menu__link{
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
 
 }
 
@@ -138,4 +154,12 @@
    .container{
         padding-right: 1em;
    }
+   .opções__botão:checked~.opções__checkbox>.opções__item{
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .opções__item{
+        padding: 2em 1em;
+    }
 }
