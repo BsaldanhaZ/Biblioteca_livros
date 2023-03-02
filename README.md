@@ -1,8 +1,8 @@
 # Biblioteca_livros
 
-> status do projeto: em andamento
+> status do projeto: concluído
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge em concluído](http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUÍDO&color=GREEN&style=for-the-badge)
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/bsaldanhaz?style=social)
 
